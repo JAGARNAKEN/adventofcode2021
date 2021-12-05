@@ -1,12 +1,12 @@
 use std::fs::File;
 use std::io::{self, BufRead};
 use std::path::Path;
-mod two {
+mod three {
     pub mod main;
 }
 fn main() {
-    if let Ok(lines) = read_lines("./src/two/input.txt") {
-        two::main::run(lines);
+    if let Ok(lines) = read_lines("./src/three/input.txt") {
+        three::main::run(lines);
     }
 }
 
